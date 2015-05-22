@@ -3,6 +3,7 @@ layout: post
 title:  "Get your Belfius DIGIPASS 870 working on Mac OS X Yosemite"
 date:   2015-05-22 10:56:16
 categories: blog
+comments: true
 ---
 > tl;dr You can get your new Belfius DIGIPASS working by following [these instructions](#fix)
 
