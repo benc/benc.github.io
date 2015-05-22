@@ -16,7 +16,7 @@ gulp.task('browserSync', ['sass', 'jekyll:build'], function () {
   });
 
   gulp.watch('_sass/**/*.sass', ['sass']);
-  gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', 'admin/*', '_posts/*', 'docs/*.md', 'img/*', 'js/*.js'], ['jekyll:rebuild']);
+  gulp.watch(['*.html', '*.md', '_config.yml', '_layouts/*.html', '_includes/*.html', 'admin/*', '_posts/*', 'docs/*.md', 'img/*', 'js/*.js'], ['jekyll:rebuild']);
 });
 
 gulp.task('build', ['sass', 'jekyll:build']);
