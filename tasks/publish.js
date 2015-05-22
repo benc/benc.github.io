@@ -7,7 +7,7 @@ gulp.task('publish', ['build'], function() {
 
   var publisher = awspublish.create({
     params: {
-      Bucket: 'cochez.consulting'
+      Bucket: 'heavyindustries.io'
     },
     region: 'eu-central-1'
   });

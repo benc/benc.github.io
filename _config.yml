@@ -1,5 +1,5 @@
 title: Ben Cochez
-feedTitle: Heavy Industrialized Feed
+feedTitle: Ben Cochez - Heavy Industrialized Feed
 email: ben@heavyindustries.io
 description:
 baseurl: ""
@@ -8,3 +8,11 @@ twitter_username: bencochez
 github_username:  benc
 
 markdown: kramdown
+
+exclude:
+  - tasks/
+  - package.json
+  - node_modules/
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
