@@ -16,3 +16,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - gulpfile.js
+
+gems:
+  - jekyll-sitemap
+  
