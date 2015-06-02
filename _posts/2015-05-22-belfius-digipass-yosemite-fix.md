@@ -14,7 +14,9 @@ Recently, my bank, [Belfius](https://www.belfius.be/), issued a [DIGIPASS 870 sm
 
 It worked great on Mavericks. [Belfius made efforts to get it working on Mac OS X Yosemite](https://twitter.com/belfiuscontact/status/540120080450068481), but sadly, it never worked properly on my main machine.
 
-I decided to perform a complete reinstall, and it still didn't work properly. The DIGIPASS worked very well on other macs in my family, so I decided to figure some stuff out. This is what I found:
+I decided to perform a complete reinstall, and it still didn't work properly. The DIGIPASS worked very well on other macs in my family, so I decided to figure some stuff out. This is what I found.
+
+<!-- more -->
 
 ## What went wrong?
 

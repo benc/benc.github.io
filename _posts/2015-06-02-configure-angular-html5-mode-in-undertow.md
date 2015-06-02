@@ -10,6 +10,8 @@ comments: true
 
 To use [Angular HTML5 mode](https://docs.angularjs.org/guide/$location#hashbang-and-html5-modes) effectively, we need some rewrite rules to direct traffic to our Angular single-page application. Undertow support rewrite rules through a predicate. This article outlines how you can write a predicate and apply it to your code.
 
+<!-- more -->
+
 Note: these rules can be easily used for any single-page application framework.
 
 ## An example

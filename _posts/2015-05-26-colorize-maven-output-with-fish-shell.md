@@ -10,4 +10,6 @@ I'm a [fish shell](http://fishshell.com) user (along with [oh-my-fish](https://g
 
 Maven is renowned for it's verbose output, so adding a little color certainly helps to interpret it's output better.
 
+<!-- more -->
+
 You can add [this fish plugin](https://gist.github.com/benc/a9b74c537f667a8dd28e) to your configured `fish_custom` folder to add some colors to your maven output.
