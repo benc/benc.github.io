@@ -6,7 +6,7 @@ categories: blog
 comments: true
 ---
 
-I like to take lots of pictures. I also have multiple macs running, and I wanted some of the photos to appear on one mac, and some of them on the other. I also want to have these photos imported in Photos.app.
+I like to take lots of pictures. I also have multiple macs running, and I wanted some of the photos to appear on one mac, and some of them on the other. I also want to have these photos imported in [Apple Photos](http://www.apple.com/osx/photos/).
 
 The thing is: how do you link up a smartphone (iPhone in my case, but the same thing could be said from any other smartphone) and create a unified photo library out of it, on multiple machines?
 
@@ -24,7 +24,7 @@ This is roughly my process:
 
   [I have uploaded these Hazel rules here](https://www.dropbox.com/s/15xizha4o35earx/Camera%20Uploads.hazelrules.zip?dl=1). Note, you probably would want to review and modify these rules according to your taste. These rules require that you have `exiftool` installed. [Get a binary here](http://www.sno.phy.queensu.ca/~phil/exiftool/).
 
-* Process the `Photos & Videos` folder, and create a photo library for them. I'm also using Hazel for this, and it imports every new image and video file into Photos.app using AppleScript. If it is imported, it is marked with a certain tag. That tag get's synced back to Dropbox. This tag also prevents duplicate imports. [These Hazel rules are available here](https://www.dropbox.com/s/hqntuzwx7yu3d3u/Add%20to%20Photos.hazelrules.zip?dl=1).
+* Process the `Photos & Videos` folder, and create a photo library for them. I'm also using Hazel for this, and it imports every new image and video file into Apple Photos using AppleScript. If it is imported, it is marked with a certain tag. That tag get's synced back to Dropbox. This tag also prevents duplicate imports. [These Hazel rules are available here](https://www.dropbox.com/s/hqntuzwx7yu3d3u/Add%20to%20Photos.hazelrules.zip?dl=1).
 
 This process is not perfect. Moving photos from camera roll to the photos & videos app only is set up on my main machine, making this process a bit brittle.
 
