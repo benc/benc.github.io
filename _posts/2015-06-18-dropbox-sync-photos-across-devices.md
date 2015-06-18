@@ -8,7 +8,7 @@ comments: true
 
 I like to take lots of pictures. I also have multiple macs running, and I wanted some of the photos to appear on one mac, and some of them on the other. I also want to have these photos imported in [Apple Photos](http://www.apple.com/osx/photos/).
 
-The thing is: how do you link up a smartphone (iPhone in my case, but the same thing could be said from any other smartphone) and create a unified photo library out of it, on multiple machines?
+The thing is: how do you process media files on a smartphone (iPhone in my case, but the same thing could be said from any other smartphone) and create a unified photo library out of it, on multiple machines?
 
 A great solution to sync stuff between devices is [Dropbox](https://www.dropbox.com). With their [Carousel](https://carousel.dropbox.com) app, it already integrates nicely into my phone, placing new photos into a `Camera Roll` folder. Dropbox is also available for almost every platform, making this process applicable on more than just an iPhone and a Mac.
 
