@@ -5,3 +5,4 @@ User-agent: *
 {% endif %}{% endfor %}{% if isset != true %}Disallow:
 {% endif %}
 Sitemap: {{ site.url }}/sitemap.xml
+Disallow: /feed.xml
