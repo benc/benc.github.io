@@ -23,9 +23,9 @@ This is how I did it:
 
 * Calculate the md5 checksum from the dmg you've just created.
 
-      cd out; md5 OSX_InstallESD_10.10.3_14D136.dmg; cd ..
+      md5 out/OSX_InstallESD_10.10.3_14D136.dmg
 
-* Run packer. Substitute the `MD5_CHECKSUM` with the one you just calculated.
+* Run packer. Substitute the `MD5_CHECKSUM` with the one you just calculated. Also check the DMG filename.
 
   	cd packer; packer build \
   	 -var iso_checksum=43101c86c31406f72b9e45011e754aa3 \
