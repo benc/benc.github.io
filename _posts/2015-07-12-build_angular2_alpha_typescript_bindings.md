@@ -28,6 +28,6 @@ So I'm building them myself.
 
 * Angular 2 typings are built using [dgeni](https://github.com/angular/dgeni), which you can trigger by running the corresponding gulp task:
 
-  	gulp docs
+  	gulp docs/typings
 
 You can find the generated typings for `angular2` and `router` in `./dist/docs/typings/angular2`.
