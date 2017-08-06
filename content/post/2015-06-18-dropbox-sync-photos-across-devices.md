@@ -1,9 +1,9 @@
 ---
-layout: post
-title: "Use Dropbox to sync your photos across all of your devices"
-date: 2015-06-18 22:00:00
 categories: blog
 comments: true
+date: 2015-06-18T22:00:00Z
+title: Use Dropbox to sync your photos across all of your devices
+url: /2015/06/18/dropbox-sync-photos-across-devices/
 ---
 
 I like to take lots of pictures. I also have multiple macs running, and I wanted some of the photos to appear on one mac, and some of them on the other. I also want to have these photos imported in [Apple Photos](http://www.apple.com/osx/photos/).
@@ -12,7 +12,7 @@ The thing is: how do you process media files on a smartphone (iPhone in my case,
 
 A great solution to sync stuff between devices is [Dropbox](https://www.dropbox.com). With their [Carousel](https://carousel.dropbox.com) app, it already integrates nicely into my phone, placing new photos into a `Camera Roll` folder. Dropbox is also available for almost every platform, making this process applicable on more than just an iPhone and a Mac.
 
-<!-- more -->
+<!--more-->
 
 This is roughly my process:
 

@@ -1,9 +1,9 @@
 ---
-layout: post
-title: "Build up-to-date Typescript bindings for Angular 2 developer preview"
-date: 2015-07-12 15:00:00
 categories: blog
 comments: true
+date: 2015-07-12T15:00:00Z
+title: Build up-to-date Typescript bindings for Angular 2 developer preview
+url: /2015/07/12/build_angular2_alpha_typescript_bindings/
 ---
 
 Angular 2 is in Developer preview, and it's a fun framework to play with. Since I'm using Typescript, I need up-to-date Typescript bindings.
@@ -12,7 +12,7 @@ At the time of writing, [the typescript bindings published for the Angular 2 alp
 
 So I'm building them myself.
 
-<!-- more -->
+<!--more-->
 
 * Check out the Angular2 repository
 
