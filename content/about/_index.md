@@ -1,9 +1,9 @@
-+++
-date = "2017-07-20T17:21:00:00:00"
-title = "About"
-hidden = true
-menu = "main"
-+++
+---
+date: 2017-07-20T17:21:00Z
+title: About
+hidden: true
+menu: main
+---
 
 Hi there! My name is Ben Cochez, and I am a freelance IT professional.
 
