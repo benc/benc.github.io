@@ -1,16 +1,16 @@
 ---
-layout: post
-title: "Configure Angular HTML 5 mode in Undertow"
-date: 2015-06-02 22:00:00
 categories: blog
 comments: true
+date: 2015-06-02T22:00:00Z
+title: Configure Angular HTML 5 mode in Undertow
+url: /2015/06/02/configure-angular-html5-mode-in-undertow/
 ---
 
 [Undertow](http://undertow.io) is the default web server in the [Wildfly Application Server](http://wildfly.org). You can also use it as an embedded webserver.
 
 To use [Angular HTML5 mode](https://docs.angularjs.org/guide/$location#hashbang-and-html5-modes) effectively, we need some rewrite rules to direct traffic to our Angular single-page application. Undertow support rewrite rules through a predicate. This article outlines how you can write a predicate and apply it to your code.
 
-<!-- more -->
+<!--more-->
 
 Note: these rules can be easily used for any single-page application framework.
 

@@ -1,10 +1,11 @@
 ---
-layout: post
-title:  "Get your Belfius DIGIPASS 870 working on Mac OS X Yosemite"
-date:   2015-05-22 10:56:16
 categories: blog
 comments: true
+date: 2015-05-22T10:56:16Z
+title: Get your Belfius DIGIPASS 870 working on Mac OS X Yosemite
+url: /2015/05/22/belfius-digipass-yosemite-fix/
 ---
+
 > tl;dr You can get your new Belfius DIGIPASS working by following [these instructions](#fix)
 
 Recently, my bank, [Belfius](https://www.belfius.be/), issued a [DIGIPASS 870 smartcard reader (Dutch link)](https://www.belfius.be/retail/nl/zelf-bankieren/diensten/kaartlezer/index.aspx?firstWA=no) that also can process a Belgian eID card. I liked it:
@@ -16,7 +17,7 @@ It worked great on Mavericks. [Belfius made efforts to get it working on Mac OS 
 
 I decided to perform a complete reinstall, and it still didn't work properly. The DIGIPASS worked very well on other macs in my family, so I decided to figure some stuff out. This is what I found.
 
-<!-- more -->
+<!--more-->
 
 ## What went wrong?
 

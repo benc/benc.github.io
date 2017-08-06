@@ -1,16 +1,16 @@
 ---
-layout: post
-title: "Create an OS X vagrant box for VMWare Fusion"
-date: 2015-07-05 08:00:00
 categories: blog
 comments: true
+date: 2015-07-05T08:00:00Z
+title: Create an OS X vagrant box for VMWare Fusion
+url: /2015/07/05/create_osx_vagrant_vmware_box/
 ---
 
 I need a test OS X system to use in [Vagrant](https://www.vagrantup.com). I'm using [VMWare Fusion](http://www.vmware.com/products/fusion/), it supports OS X virtual machines and [Vagrant provides an official plugin to work with VMware](https://www.vagrantup.com/vmware). VMWare Fusion and the VMWare Vagrant plugin arent't free, but well worth the money.
 
 Since you cannot download a prepackaged vagrant VMWare OS X box, we're going to build it ourselves.
 
-<!-- more -->
+<!--more-->
 
 This is how I did it:
 
