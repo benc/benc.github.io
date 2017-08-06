@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://heavyindustries.io/post/</loc>
+    <lastmod>2017-08-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://heavyindustries.io/about/</loc>
+    <lastmod>2017-07-20T17:21:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://heavyindustries.io/2015/07/12/build_angular2_alpha_typescript_bindings/</loc>
+    <lastmod>2015-07-12T15:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://heavyindustries.io/2015/07/05/create_osx_vagrant_vmware_box/</loc>
+    <lastmod>2015-07-05T08:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://heavyindustries.io/2015/06/18/dropbox-sync-photos-across-devices/</loc>
+    <lastmod>2015-06-18T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://heavyindustries.io/2015/06/02/configure-angular-html5-mode-in-undertow/</loc>
+    <lastmod>2015-06-02T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://heavyindustries.io/2015/05/26/colorize-maven-output-with-fish-shell/</loc>
+    <lastmod>2015-05-26T21:35:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://heavyindustries.io/2015/05/22/belfius-digipass-yosemite-fix/</loc>
+    <lastmod>2015-05-22T10:56:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://heavyindustries.io/</loc>
+    <lastmod>2015-07-12T15:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://heavyindustries.io/categories/blog/</loc>
+    <lastmod>2015-07-12T15:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://heavyindustries.io/categories/</loc>
+    <lastmod>2015-07-12T15:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://heavyindustries.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
