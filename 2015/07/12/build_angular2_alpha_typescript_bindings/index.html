@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Ben Cochez">
+<meta name="description" content="Describe your website">
+<meta name="generator" content="Hugo 0.36" />
+<title>Build up-to-date Typescript bindings for Angular 2 developer preview</title>
+<link rel="shortcut icon" href="http://heavyindustries.io/images/favicon.ico">
+<link rel="stylesheet" href="http://heavyindustries.io/css/style.css">
+<link rel="stylesheet" href="http://heavyindustries.io/css/highlight.css">
+
+
+
+<link rel="stylesheet" href="http://heavyindustries.io/css/monosocialiconsfont.css">
+
+
+
+<link href="http://heavyindustries.io/index.xml" rel="alternate" type="application/rss+xml" title="Ben Cochez" />
+
+
+<meta property="og:title" content="Build up-to-date Typescript bindings for Angular 2 developer preview" />
+<meta property="og:description" content="Angular 2 is in Developer preview, and it&rsquo;s a fun framework to play with. Since I&rsquo;m using Typescript, I need up-to-date Typescript bindings.
+
+At the time of writing, the typescript bindings published for the Angular 2 alpha builds is sometimes lagging behind.
+
+So I&rsquo;m building them myself.
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://heavyindustries.io/2015/07/12/build_angular2_alpha_typescript_bindings/" />
+
+
+
+<meta property="article:published_time" content="2015-07-12T15:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2015-07-12T15:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Build up-to-date Typescript bindings for Angular 2 developer preview">
+<meta itemprop="description" content="Angular 2 is in Developer preview, and it&rsquo;s a fun framework to play with. Since I&rsquo;m using Typescript, I need up-to-date Typescript bindings.
+
+At the time of writing, the typescript bindings published for the Angular 2 alpha builds is sometimes lagging behind.
+
+So I&rsquo;m building them myself.
+
+">
+
+
+<meta itemprop="datePublished" content="2015-07-12T15:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2015-07-12T15:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="118">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Build up-to-date Typescript bindings for Angular 2 developer preview"/>
+<meta name="twitter:description" content="Angular 2 is in Developer preview, and it&rsquo;s a fun framework to play with. Since I&rsquo;m using Typescript, I need up-to-date Typescript bindings.
+
+At the time of writing, the typescript bindings published for the Angular 2 alpha builds is sometimes lagging behind.
+
+So I&rsquo;m building them myself.
+
+"/>
+<meta name="twitter:site" content="@https://www.twitter.com/bencochez"/>
+
+
+    </head>
+<body>
+    <nav class="main-nav">
+	
+		<a href='http://heavyindustries.io'> <span class="arrow">←</span>Home</a>
+	
+
+	
+ 		<a href='/about/'>About</a>
+  	
+
+	
+		<a class="cta" href="http://heavyindustries.io/index.xml">Subscribe</a>
+	
+</nav>
+
+    <section id="wrapper">
+        
+        
+<article class="post">
+    <header>
+        <h1>Build up-to-date Typescript bindings for Angular 2 developer preview</h1>
+        <h2 class="headline">
+        July 12, 2015
+        <br>
+        
+        </h2>
+    </header>
+    <section id="post-body">
+        <p>Angular 2 is in Developer preview, and it&rsquo;s a fun framework to play with. Since I&rsquo;m using Typescript, I need up-to-date Typescript bindings.</p>
+
+<p>At the time of writing, <a href="https://github.com/borisyankov/DefinitelyTyped/tree/master/angular2">the typescript bindings published for the Angular 2 alpha builds is sometimes lagging behind</a>.</p>
+
+<p>So I&rsquo;m building them myself.</p>
+
+<p></p>
+
+<ul>
+<li><p>Check out the Angular2 repository</p>
+
+<p>git clone git@github.com:angular/angular.git; cd angular</p></li>
+
+<li><p>Switch to the tag of the alpha you want to generate typings from. I&rsquo;m using <code>2.0.0-alpha.30</code> at the time of writing.</p>
+
+<p>git checkout 2.0.0-alpha.30</p></li>
+
+<li><p>Install the necessary dependencies:</p>
+
+<p>npm install</p></li>
+
+<li><p>Angular 2 typings are built using <a href="https://github.com/angular/dgeni">dgeni</a>, which you can trigger by running the corresponding gulp task:</p>
+
+<p>gulp docs/typings</p></li>
+</ul>
+
+<p>You can find the generated typings for <code>angular2</code> and <code>router</code> in <code>./dist/docs/typings/angular2</code>.</p>
+    </section>
+</article>
+
+<footer id="post-meta" class="clearfix">
+    <a href="https://twitter.com/bencochez">
+    <img class="avatar" src="http://heavyindustries.io/images/avatar.png">
+    <div>
+        <span class="dark">Ben Cochez</span>
+        <span></span>
+    </div>
+    </a>
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fheavyindustries.io%2f2015%2f07%2f12%2fbuild_angular2_alpha_typescript_bindings%2f - Build%20up-to-date%20Typescript%20bindings%20for%20Angular%202%20developer%20preview by @bencochez"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+    </section>
+</footer>
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "heavyindustries" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="/2015/07/05/create_osx_vagrant_vmware_box/">Create an OS X vagrant box for VMWare Fusion<aside class="dates">Jul 5 2015</aside></a>
+        </li>
+    
+        <li>
+            <a href="/2015/06/18/dropbox-sync-photos-across-devices/">Use Dropbox to sync your photos across all of your devices<aside class="dates">Jun 18 2015</aside></a>
+        </li>
+    
+        <li>
+            <a href="/2015/06/02/configure-angular-html5-mode-in-undertow/">Configure Angular HTML 5 mode in Undertow<aside class="dates">Jun 2 2015</aside></a>
+        </li>
+    
+        <li>
+            <a href="/2015/05/26/colorize-maven-output-with-fish-shell/">Colorize maven output with fish shell<aside class="dates">May 26 2015</aside></a>
+        </li>
+    
+        <li>
+            <a href="/2015/05/22/belfius-digipass-yosemite-fix/">Get your Belfius DIGIPASS 870 working on Mac OS X Yosemite<aside class="dates">May 22 2015</aside></a>
+        </li>
+    
+</ul>
+
+
+
+        <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    
+    <a class="symbol" href="https://www.github.com/benc">
+        circlegithub
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/bencochez">
+        circletwitterbird
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2018 Ben Cochez
+    
+    </p>
+</footer>
+
+    </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://heavyindustries.io/js/main.js"></script>
+<script src="http://heavyindustries.io/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-38982355-2', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</body>
+</html>
