@@ -1,6 +1,6 @@
 # Site settings
-# baseurl = "https://heavyindustries.io"
-baseurl = "https://benc.github.io"
+# baseurl = "//heavyindustries.io"
+baseurl = "//"
 themesDir = "themes"
 languageCode = "en-us"
 title = "Ben Cochez"
