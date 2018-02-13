@@ -8,17 +8,17 @@
 <meta name="description" content="Describe your website">
 <meta name="generator" content="Hugo 0.36" />
 <title>Create an OS X vagrant box for VMWare Fusion</title>
-<link rel="shortcut icon" href="https://benc.github.io/images/favicon.ico">
-<link rel="stylesheet" href="https://benc.github.io/css/style.css">
-<link rel="stylesheet" href="https://benc.github.io/css/highlight.css">
+<link rel="shortcut icon" href="https://heavyindustries.io/images/favicon.ico">
+<link rel="stylesheet" href="https://heavyindustries.io/css/style.css">
+<link rel="stylesheet" href="https://heavyindustries.io/css/highlight.css">
 
 
 
-<link rel="stylesheet" href="https://benc.github.io/css/monosocialiconsfont.css">
+<link rel="stylesheet" href="https://heavyindustries.io/css/monosocialiconsfont.css">
 
 
 
-<link href="https://benc.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Ben Cochez" />
+<link href="https://heavyindustries.io/index.xml" rel="alternate" type="application/rss+xml" title="Ben Cochez" />
 
 
 <meta property="og:title" content="Create an OS X vagrant box for VMWare Fusion" />
@@ -28,7 +28,7 @@ Since you cannot download a prepackaged vagrant VMWare OS X box, we&rsquo;re goi
 
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://benc.github.io/2015/07/05/create_osx_vagrant_vmware_box/" />
+<meta property="og:url" content="https://heavyindustries.io/2015/07/05/create_osx_vagrant_vmware_box/" />
 
 
 
@@ -58,7 +58,7 @@ Since you cannot download a prepackaged vagrant VMWare OS X box, we&rsquo;re goi
 
 <meta itemprop="datePublished" content="2015-07-05T08:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2015-07-05T08:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="228">
+<meta itemprop="wordCount" content="231">
 
 
 
@@ -78,7 +78,7 @@ Since you cannot download a prepackaged vagrant VMWare OS X box, we&rsquo;re goi
 <body>
     <nav class="main-nav">
 	
-		<a href='https://benc.github.io'> <span class="arrow">←</span>Home</a>
+		<a href='https://heavyindustries.io'> <span class="arrow">←</span>Home</a>
 	
 
 	
@@ -86,7 +86,7 @@ Since you cannot download a prepackaged vagrant VMWare OS X box, we&rsquo;re goi
   	
 
 	
-		<a class="cta" href="https://benc.github.io/index.xml">Subscribe</a>
+		<a class="cta" href="https://heavyindustries.io/index.xml">Subscribe</a>
 	
 </nav>
 
@@ -111,40 +111,39 @@ Since you cannot download a prepackaged vagrant VMWare OS X box, we&rsquo;re goi
 
 <p>This is how I did it:</p>
 
-<ul>
-<li>Install Vagrant, VMWare and the vagrant vmware plugin. Also, install <a href="https://www.packer.io">packer</a>, which we will need to build the box.</li>
-<li>Get the latest installer of Yosemite off the Mac App store.</li>
+<p>Install Vagrant, VMWare and the vagrant vmware plugin. Also, install <a href="https://www.packer.io">packer</a>, which we will need to build the box.
+Get the latest installer of Yosemite off the Mac App store.
+Grab a copy of the <a href="https://github.com/timsutton/osx-vm-templates">osx-vm-templates</a> provided by Tim Sutton.</p>
 
-<li><p>Grab a copy of the <a href="https://github.com/timsutton/osx-vm-templates">osx-vm-templates</a> provided by Tim Sutton.</p>
+<pre><code>git clone https://github.com/timsutton/osx-vm-templates.git; cd osx-vm-templates
+sudo prepare_iso/prepare_iso.sh /Applications/Install\ OS\ X\ Yosemite.app/ out
+</code></pre>
 
-<p>git clone <a href="https://github.com/timsutton/osx-vm-templates.git">https://github.com/timsutton/osx-vm-templates.git</a>; cd osx-vm-templates
-sudo prepare_iso/prepare_iso.sh /Applications/Install\ OS\ X\ Yosemite.app/ out</p></li>
+<p>Calculate the md5 checksum from the dmg you&rsquo;ve just created.</p>
 
-<li><p>Calculate the md5 checksum from the dmg you&rsquo;ve just created.</p>
+<pre><code>md5 out/OSX_InstallESD_10.10.3_14D136.dmg
+</code></pre>
 
-<p>md5 out/OSX_InstallESD_10.10.3_14D136.dmg</p></li>
+<p>Run packer. Substitute the <code>MD5_CHECKSUM</code> with the one you just calculated. Also check the DMG filename.</p>
 
-<li><p>Run packer. Substitute the <code>MD5_CHECKSUM</code> with the one you just calculated. Also check the DMG filename.</p>
+<pre><code>cd packer; packer build \
+    -var iso_checksum=43101c86c31406f72b9e45011e754aa3 \
+    -var iso_url=../out/OSX_InstallESD_10.10.3_14D136.dmg \
+    --only vmware-iso template.json
+</code></pre>
 
-<p>cd packer; packer build <br />
- -var iso_checksum=43101c86c31406f72b9e45011e754aa3 <br />
- -var iso_url=../out/OSX_InstallESD_10.10.3_14D136.dmg <br />
- &ndash;only vmware-iso template.json</p></li>
-
-<li><p>Grab a cup of coffee. Many cups, actually. This will run for a while.</p></li>
-</ul>
+<p>Grab a cup of coffee. Many cups, actually. This will run for a while.</p>
 
 <p>When it&rsquo;s done, add the box to vagrant</p>
 
-<pre><code>  vagrant box add osx-yosemite packer_vmware-iso_vmware.box
+<pre><code>vagrant box add osx-yosemite packer_vmware-iso_vmware.box
 </code></pre>
 
-<ul>
-<li><p>We don&rsquo;t need the box anymore (it sits right in vagrants cache),  so a little housekeeping can&rsquo;t hurt:</p>
+<p>We don&rsquo;t need the box anymore (it sits right in vagrants cache),  so a little housekeeping can&rsquo;t hurt:</p>
 
-<p>rm packer_vmware-iso_vmware.box
-cd ../out; rm OSX_InstallESD_10.10.3_14D136.dmg</p></li>
-</ul>
+<pre><code>rm packer_vmware-iso_vmware.box
+cd ../out; rm OSX_InstallESD_10.10.3_14D136.dmg
+</code></pre>
 
 <p>That&rsquo;s it! You can now use the <code>osx-yosemite</code> as a base box in any Vagrantfile on your system.</p>
     </section>
@@ -152,14 +151,14 @@ cd ../out; rm OSX_InstallESD_10.10.3_14D136.dmg</p></li>
 
 <footer id="post-meta" class="clearfix">
     <a href="https://twitter.com/bencochez">
-    <img class="avatar" src="https://benc.github.io/images/avatar.png">
+    <img class="avatar" src="https://heavyindustries.io/images/avatar.png">
     <div>
         <span class="dark">Ben Cochez</span>
         <span></span>
     </div>
     </a>
     <section id="sharing">
-        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fbenc.github.io%2f2015%2f07%2f05%2fcreate_osx_vagrant_vmware_box%2f - Create%20an%20OS%20X%20vagrant%20box%20for%20VMWare%20Fusion by @bencochez"><span class="icon-twitter"> tweet</span></a>
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fheavyindustries.io%2f2015%2f07%2f05%2fcreate_osx_vagrant_vmware_box%2f - Create%20an%20OS%20X%20vagrant%20box%20for%20VMWare%20Fusion by @bencochez"><span class="icon-twitter"> tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
@@ -204,11 +203,11 @@ cd ../out; rm OSX_InstallESD_10.10.3_14D136.dmg</p></li>
         </li>
     
         <li>
-            <a href="/2015/06/18/dropbox-sync-photos-across-devices/">Use Dropbox to sync your photos across all of your devices<aside class="dates">Jun 18 2015</aside></a>
+            <a href="/2015/06/19/dropbox-sync-photos-across-devices/">Use Dropbox to sync your photos across all of your devices<aside class="dates">Jun 19 2015</aside></a>
         </li>
     
         <li>
-            <a href="/2015/06/02/configure-angular-html5-mode-in-undertow/">Configure Angular HTML 5 mode in Undertow<aside class="dates">Jun 3 2015</aside></a>
+            <a href="/2015/06/03/configure-angular-html5-mode-in-undertow/">Configure Angular HTML 5 mode in Undertow<aside class="dates">Jun 3 2015</aside></a>
         </li>
     
         <li>
@@ -252,8 +251,8 @@ cd ../out; rm OSX_InstallESD_10.10.3_14D136.dmg</p></li>
 
     </section>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://benc.github.io/js/main.js"></script>
-<script src="https://benc.github.io/js/highlight.js"></script>
+<script src="https://heavyindustries.io/js/main.js"></script>
+<script src="https://heavyindustries.io/js/highlight.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
 
