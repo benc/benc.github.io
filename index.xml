@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ben Cochez</title>
-    <link>https://heavyindustries.io/</link>
+    <link>//heavyindustries.io/</link>
     <description>Recent content on Ben Cochez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 12 Jul 2015 15:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://heavyindustries.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//heavyindustries.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Build up-to-date Typescript bindings for Angular 2 developer preview</title>
-      <link>https://heavyindustries.io/2015/07/12/build_angular2_alpha_typescript_bindings/</link>
+      <link>//heavyindustries.io/2015/07/12/build_angular2_alpha_typescript_bindings/</link>
       <pubDate>Sun, 12 Jul 2015 15:00:00 +0000</pubDate>
       
-      <guid>https://heavyindustries.io/2015/07/12/build_angular2_alpha_typescript_bindings/</guid>
+      <guid>//heavyindustries.io/2015/07/12/build_angular2_alpha_typescript_bindings/</guid>
       <description>&lt;p&gt;Angular 2 is in Developer preview, and it&amp;rsquo;s a fun framework to play with. Since I&amp;rsquo;m using Typescript, I need up-to-date Typescript bindings.&lt;/p&gt;
 
 &lt;p&gt;At the time of writing, &lt;a href=&#34;https://github.com/borisyankov/DefinitelyTyped/tree/master/angular2&#34;&gt;the typescript bindings published for the Angular 2 alpha builds is sometimes lagging behind&lt;/a&gt;.&lt;/p&gt;
@@ -28,10 +28,10 @@
     
     <item>
       <title>Create an OS X vagrant box for VMWare Fusion</title>
-      <link>https://heavyindustries.io/2015/07/05/create_osx_vagrant_vmware_box/</link>
+      <link>//heavyindustries.io/2015/07/05/create_osx_vagrant_vmware_box/</link>
       <pubDate>Sun, 05 Jul 2015 08:00:00 +0000</pubDate>
       
-      <guid>https://heavyindustries.io/2015/07/05/create_osx_vagrant_vmware_box/</guid>
+      <guid>//heavyindustries.io/2015/07/05/create_osx_vagrant_vmware_box/</guid>
       <description>&lt;p&gt;I need a test OS X system to use in &lt;a href=&#34;https://www.vagrantup.com&#34;&gt;Vagrant&lt;/a&gt;. I&amp;rsquo;m using &lt;a href=&#34;http://www.vmware.com/products/fusion/&#34;&gt;VMWare Fusion&lt;/a&gt;, it supports OS X virtual machines and &lt;a href=&#34;https://www.vagrantup.com/vmware&#34;&gt;Vagrant provides an official plugin to work with VMware&lt;/a&gt;. VMWare Fusion and the VMWare Vagrant plugin arent&amp;rsquo;t free, but well worth the money.&lt;/p&gt;
 
 &lt;p&gt;Since you cannot download a prepackaged vagrant VMWare OS X box, we&amp;rsquo;re going to build it ourselves.&lt;/p&gt;
@@ -41,10 +41,10 @@
     
     <item>
       <title>Use Dropbox to sync your photos across all of your devices</title>
-      <link>https://heavyindustries.io/2015/06/19/dropbox-sync-photos-across-devices/</link>
+      <link>//heavyindustries.io/2015/06/19/dropbox-sync-photos-across-devices/</link>
       <pubDate>Fri, 19 Jun 2015 22:00:00 +0000</pubDate>
       
-      <guid>https://heavyindustries.io/2015/06/19/dropbox-sync-photos-across-devices/</guid>
+      <guid>//heavyindustries.io/2015/06/19/dropbox-sync-photos-across-devices/</guid>
       <description>&lt;p&gt;I like to take lots of pictures. I also have multiple macs running, and I wanted some of the photos to appear on one mac, and some of them on the other. I also want to have these photos imported in &lt;a href=&#34;http://www.apple.com/osx/photos/&#34;&gt;Apple Photos&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;The thing is: how do you process media files on a smartphone (iPhone in my case, but the same thing could be said from any other smartphone) and create a unified photo library out of it, on multiple machines?&lt;/p&gt;
@@ -56,10 +56,10 @@
     
     <item>
       <title>Configure Angular HTML 5 mode in Undertow</title>
-      <link>https://heavyindustries.io/2015/06/03/configure-angular-html5-mode-in-undertow/</link>
+      <link>//heavyindustries.io/2015/06/03/configure-angular-html5-mode-in-undertow/</link>
       <pubDate>Wed, 03 Jun 2015 22:00:00 +0000</pubDate>
       
-      <guid>https://heavyindustries.io/2015/06/03/configure-angular-html5-mode-in-undertow/</guid>
+      <guid>//heavyindustries.io/2015/06/03/configure-angular-html5-mode-in-undertow/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://undertow.io&#34;&gt;Undertow&lt;/a&gt; is the default web server in the &lt;a href=&#34;http://wildfly.org&#34;&gt;Wildfly Application Server&lt;/a&gt;. You can also use it as an embedded webserver.&lt;/p&gt;
 
 &lt;p&gt;To use &lt;a href=&#34;https://docs.angularjs.org/guide/$location#hashbang-and-html5-modes&#34;&gt;Angular HTML5 mode&lt;/a&gt; effectively, we need some rewrite rules to direct traffic to our Angular single-page application. Undertow support rewrite rules through a predicate. This article outlines how you can write a predicate and apply it to your code.&lt;/p&gt;
@@ -69,10 +69,10 @@
     
     <item>
       <title>Colorize maven output with fish shell</title>
-      <link>https://heavyindustries.io/2015/05/26/colorize-maven-output-with-fish-shell/</link>
+      <link>//heavyindustries.io/2015/05/26/colorize-maven-output-with-fish-shell/</link>
       <pubDate>Tue, 26 May 2015 21:35:00 +0000</pubDate>
       
-      <guid>https://heavyindustries.io/2015/05/26/colorize-maven-output-with-fish-shell/</guid>
+      <guid>//heavyindustries.io/2015/05/26/colorize-maven-output-with-fish-shell/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m a &lt;a href=&#34;http://fishshell.com&#34;&gt;fish shell&lt;/a&gt; user (along with &lt;a href=&#34;https://github.com/bpinto/oh-my-fish&#34;&gt;oh-my-fish&lt;/a&gt;), and I also happen to encounter &lt;a href=&#34;http://maven.apache.org&#34;&gt;maven&lt;/a&gt; on a daily basis.&lt;/p&gt;
 
 &lt;p&gt;Maven is renowned for it&amp;rsquo;s verbose output, so adding a little color certainly helps to interpret it&amp;rsquo;s output better.&lt;/p&gt;
@@ -82,10 +82,10 @@
     
     <item>
       <title>Get your Belfius DIGIPASS 870 working on Mac OS X Yosemite</title>
-      <link>https://heavyindustries.io/2015/05/22/belfius-digipass-yosemite-fix/</link>
+      <link>//heavyindustries.io/2015/05/22/belfius-digipass-yosemite-fix/</link>
       <pubDate>Fri, 22 May 2015 10:56:16 +0000</pubDate>
       
-      <guid>https://heavyindustries.io/2015/05/22/belfius-digipass-yosemite-fix/</guid>
+      <guid>//heavyindustries.io/2015/05/22/belfius-digipass-yosemite-fix/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;tl;dr You can get your new Belfius DIGIPASS working by following &lt;a href=&#34;#fix&#34;&gt;these instructions&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

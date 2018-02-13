@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Ben Cochez</title>
-    <link>https://heavyindustries.io/about/</link>
+    <link>//heavyindustries.io/about/</link>
     <description>Recent content in About on Ben Cochez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Jul 2017 17:21:00 +0000</lastBuildDate>
     
-	<atom:link href="https://heavyindustries.io/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//heavyindustries.io/about/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
