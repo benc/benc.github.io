@@ -3,7 +3,9 @@ categories: blog
 comments: true
 date: 2015-06-03T22:00:00Z
 title: Configure Angular HTML 5 mode in Undertow
-url: /2015/06/02/configure-angular-html5-mode-in-undertow/
+url: /2015/06/03/configure-angular-html5-mode-in-undertow/
+aliases:
+- /blog/2015/06/03/configure-angular-html5-mode-in-undertow.html
 ---
 
 [Undertow](http://undertow.io) is the default web server in the [Wildfly Application Server](http://wildfly.org). You can also use it as an embedded webserver.
@@ -18,12 +20,12 @@ Note: these rules can be easily used for any single-page application framework.
 
 This example assumes that:
 
-* Our context path is `/app`. We don't want to rewrite either `/app` or `/app/`.
-* Our Angular application lives at `/app/index.html`.
-* Our CSS is located at `/app/css/`.
-* Our JS is located at `/app/js/`.
-* Our images are placed in `/app/images/`.
-* The backend REST service is served at the `/app/rest/` path.
+Our context path is `/app`. We don't want to rewrite either `/app` or `/app/`.
+Our Angular application lives at `/app/index.html`.
+Our CSS is located at `/app/css/`.
+Our JS is located at `/app/js/`.
+Our images are placed in `/app/images/`.
+The backend REST service is served at the `/app/rest/` path.
 
 All of these prerequisites need to be filtered out. The predicate that conforms with the example we've outlined above results in:
 
@@ -54,5 +56,5 @@ Note: Undertow uses the [`PredicatedHandlersParser`](https://github.com/undertow
 
 If you need additional information, check these resources:
 
-* [Undertow documentation](http://undertow.io/undertow-docs/undertow-docs-1.2.0/predicates-attributes-handlers.html)
-* [PredicateParsingTestCase.java](https://github.com/undertow-io/undertow/blob/master/core/src/test/java/io/undertow/predicate/PredicateParsingTestCase.java)
+[Undertow documentation](http://undertow.io/undertow-docs/undertow-docs-1.2.0/predicates-attributes-handlers.html)
+[PredicateParsingTestCase.java](https://github.com/undertow-io/undertow/blob/master/core/src/test/java/io/undertow/predicate/PredicateParsingTestCase.java)

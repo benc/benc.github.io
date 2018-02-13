@@ -4,6 +4,8 @@ comments: true
 date: 2015-05-26T21:35:00Z
 title: Colorize maven output with fish shell
 url: /2015/05/26/colorize-maven-output-with-fish-shell/
+aliases:
+- /blog/2015/05/26/colorize-maven-output-with-fish-shell.html
 ---
 
 I'm a [fish shell](http://fishshell.com) user (along with [oh-my-fish](https://github.com/bpinto/oh-my-fish)), and I also happen to encounter [maven](http://maven.apache.org) on a daily basis.

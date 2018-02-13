@@ -1,9 +1,11 @@
 ---
 categories: blog
 comments: true
-date: 2015-06-18T22:00:00Z
+date: 2015-06-19T22:00:00Z
 title: Use Dropbox to sync your photos across all of your devices
-url: /2015/06/18/dropbox-sync-photos-across-devices/
+url: /2015/06/19/dropbox-sync-photos-across-devices/
+aliases:
+- /blog/2015/06/19/dropbox-sync-photos-across-devices.html
 ---
 
 I like to take lots of pictures. I also have multiple macs running, and I wanted some of the photos to appear on one mac, and some of them on the other. I also want to have these photos imported in [Apple Photos](http://www.apple.com/osx/photos/).
@@ -16,15 +18,15 @@ A great solution to sync stuff between devices is [Dropbox](https://www.dropbox.
 
 This is roughly my process:
 
-* Take photos, shoot videos.
+Take photos, shoot videos.
 
-* Carousel uploads all of my photos & videos to the `Camera Roll` folder.
+Carousel uploads all of my photos & videos to the `Camera Roll` folder.
 
-* Process the `Camera Roll` folder, and moves them to a folder structure `Photos & Videos` \> `year` \> `month`, that also resides in Dropbox. I'm using [Hazel](http://www.noodlesoft.com/hazel.php) for this, and `exiftool ` to pass on the metadata from the photos to Hazel.
+Process the `Camera Roll` folder, and moves them to a folder structure `Photos & Videos` \> `year` \> `month`, that also resides in Dropbox. I'm using [Hazel](http://www.noodlesoft.com/hazel.php) for this, and `exiftool ` to pass on the metadata from the photos to Hazel.
 
   [I have uploaded these Hazel rules here](https://www.dropbox.com/s/15xizha4o35earx/Camera%20Uploads.hazelrules.zip?dl=1). Note, you probably would want to review and modify these rules according to your taste. These rules require that you have `exiftool` installed. [Get a binary here](http://www.sno.phy.queensu.ca/~phil/exiftool/).
 
-* Process the `Photos & Videos` folder, and create a photo library for them. I'm also using Hazel for this, and it imports every new image and video file into Apple Photos using AppleScript. If it is imported, it is marked with a certain tag. That tag get's synced back to Dropbox. This tag also prevents duplicate imports. [These Hazel rules are available here](https://www.dropbox.com/s/hqntuzwx7yu3d3u/Add%20to%20Photos.hazelrules.zip?dl=1).
+Process the `Photos & Videos` folder, and create a photo library for them. I'm also using Hazel for this, and it imports every new image and video file into Apple Photos using AppleScript. If it is imported, it is marked with a certain tag. That tag get's synced back to Dropbox. This tag also prevents duplicate imports. [These Hazel rules are available here](https://www.dropbox.com/s/hqntuzwx7yu3d3u/Add%20to%20Photos.hazelrules.zip?dl=1).
 
 This process is not perfect. Moving photos from camera roll to the photos & videos app only is set up on my main machine, making this process a bit brittle.
 
