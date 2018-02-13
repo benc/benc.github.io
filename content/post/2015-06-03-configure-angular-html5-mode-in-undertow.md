@@ -1,7 +1,7 @@
 ---
 categories: blog
 comments: true
-date: 2015-06-02T22:00:00Z
+date: 2015-06-03T22:00:00Z
 title: Configure Angular HTML 5 mode in Undertow
 url: /2015/06/02/configure-angular-html5-mode-in-undertow/
 ---
