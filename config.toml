@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://heavyindustries.io"
+baseurl = "//heavyindustries.io"
 # baseurl = "https://benc.github.io"
 themesDir = "themes"
 languageCode = "en-us"
