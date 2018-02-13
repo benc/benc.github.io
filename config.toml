@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://heavyindustries.io"
+baseurl = "https://heavyindustries.io"
 themesDir = "themes"
 languageCode = "en-us"
 title = "Ben Cochez"
