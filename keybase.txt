@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/benc
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://heavyindustries.io
+  * I am benc (https://keybase.io/benc) on keybase.
+  * I have a public key ASBh5O4RkRNNUEEMUPSJct-fg947Hb6qVTxn2sXyY8LkOAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101807e4ea5c50234cf8ce9561a031382818c3b1f70bcf8aa21fd3a20a720df8d750a",
+      "host": "keybase.io",
+      "kid": "012061e4ee1191134d50410c50f48972df9f83de3b1dbeaa553c67dac5f263c2e4380a",
+      "uid": "ca0ed78e325892f504f59b1fbedd9800",
+      "username": "benc"
+    },
+    "merkle_root": {
+      "ctime": 1542368995,
+      "hash": "29e6766afaac3b3dcf32750398fd1423273bfdfa479fb6a5f8bc657a16606127599e02e5695ccdf4f881bbed654ed6742a4ae85d39caee290e968a2840884e7e",
+      "hash_meta": "2b8547ecaea088872e496f95b0fd297d609519dccf828e03b28f2956812aec47",
+      "seqno": 3963020
+    },
+    "service": {
+      "entropy": "znHh7IVS9j89kSkyCOjJG4x4",
+      "hostname": "heavyindustries.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.10.0"
+  },
+  "ctime": 1542369012,
+  "expire_in": 504576000,
+  "prev": "fb49265bf7255eeb33a52bab9c6539e78666f4f863db6308da29df933bad8dce",
+  "seqno": 58,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgYeTuEZETTVBBDFD0iXLfn4PeOx2+qlU8Z9rF8mPC5DgKp3BheWxvYWTESpcCOsQg+0kmW/clXuszpSurnGU554Zm9Phj22MI2infkzutjc7EILOMHExX52N6XoL1ABNsu7uBu38b05N1Tf/qmd46f7jQAgHCo3NpZ8RAsN1tiZY3cLBf4rOIGMbjm2m/dLCGr83pXC+ER1rpjQv+xvRs1WNDJKxXc+8UHWgb8Eo1xKDK5ax8yQfKf1TBBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKgVkjQt6U2azd3DN2y1QmfjtChAIACPz3zn1zLPZlr1o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/benc
+
+==================================================================

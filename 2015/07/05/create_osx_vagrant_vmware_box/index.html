@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Ben Cochez">
 <meta name="description" content="Describe your website">
-<meta name="generator" content="Hugo 0.36" />
+<meta name="generator" content="Hugo 0.51" />
 <title>Create an OS X vagrant box for VMWare Fusion</title>
 <link rel="shortcut icon" href="//heavyindustries.io/images/favicon.ico">
 <link rel="stylesheet" href="//heavyindustries.io/css/style.css">
@@ -24,36 +24,17 @@
 <meta property="og:title" content="Create an OS X vagrant box for VMWare Fusion" />
 <meta property="og:description" content="I need a test OS X system to use in Vagrant. I&rsquo;m using VMWare Fusion, it supports OS X virtual machines and Vagrant provides an official plugin to work with VMware. VMWare Fusion and the VMWare Vagrant plugin arent&rsquo;t free, but well worth the money.
 
-Since you cannot download a prepackaged vagrant VMWare OS X box, we&rsquo;re going to build it ourselves.
-
-" />
+Since you cannot download a prepackaged vagrant VMWare OS X box, we&rsquo;re going to build it ourselves." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="//heavyindustries.io/2015/07/05/create_osx_vagrant_vmware_box/" />
-
-
-
-<meta property="article:published_time" content="2015-07-05T08:00:00&#43;00:00"/>
-
+<meta property="og:url" content="//heavyindustries.io/2015/07/05/create_osx_vagrant_vmware_box/" /><meta property="article:published_time" content="2015-07-05T08:00:00&#43;00:00"/>
 <meta property="article:modified_time" content="2015-07-05T08:00:00&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
 
 
 
 <meta itemprop="name" content="Create an OS X vagrant box for VMWare Fusion">
 <meta itemprop="description" content="I need a test OS X system to use in Vagrant. I&rsquo;m using VMWare Fusion, it supports OS X virtual machines and Vagrant provides an official plugin to work with VMware. VMWare Fusion and the VMWare Vagrant plugin arent&rsquo;t free, but well worth the money.
 
-Since you cannot download a prepackaged vagrant VMWare OS X box, we&rsquo;re going to build it ourselves.
-
-">
+Since you cannot download a prepackaged vagrant VMWare OS X box, we&rsquo;re going to build it ourselves.">
 
 
 <meta itemprop="datePublished" content="2015-07-05T08:00:00&#43;00:00" />
@@ -68,9 +49,7 @@ Since you cannot download a prepackaged vagrant VMWare OS X box, we&rsquo;re goi
 <meta name="twitter:title" content="Create an OS X vagrant box for VMWare Fusion"/>
 <meta name="twitter:description" content="I need a test OS X system to use in Vagrant. I&rsquo;m using VMWare Fusion, it supports OS X virtual machines and Vagrant provides an official plugin to work with VMware. VMWare Fusion and the VMWare Vagrant plugin arent&rsquo;t free, but well worth the money.
 
-Since you cannot download a prepackaged vagrant VMWare OS X box, we&rsquo;re going to build it ourselves.
-
-"/>
+Since you cannot download a prepackaged vagrant VMWare OS X box, we&rsquo;re going to build it ourselves."/>
 <meta name="twitter:site" content="@https://www.twitter.com/bencochez"/>
 
 
@@ -106,8 +85,6 @@ Since you cannot download a prepackaged vagrant VMWare OS X box, we&rsquo;re goi
         <p>I need a test OS X system to use in <a href="https://www.vagrantup.com">Vagrant</a>. I&rsquo;m using <a href="http://www.vmware.com/products/fusion/">VMWare Fusion</a>, it supports OS X virtual machines and <a href="https://www.vagrantup.com/vmware">Vagrant provides an official plugin to work with VMware</a>. VMWare Fusion and the VMWare Vagrant plugin arent&rsquo;t free, but well worth the money.</p>
 
 <p>Since you cannot download a prepackaged vagrant VMWare OS X box, we&rsquo;re going to build it ourselves.</p>
-
-<p></p>
 
 <p>This is how I did it:</p>
 
@@ -172,7 +149,7 @@ cd ../out; rm OSX_InstallESD_10.10.3_14D136.dmg
 </footer>
 
 <div id="disqus_thread"></div>
-<script>
+<script type="application/javascript">
     var disqus_config = function () {
     
     
@@ -258,14 +235,17 @@ cd ../out; rm OSX_InstallESD_10.10.3_14D136.dmg
 
 
 
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-38982355-2', 'auto');
-ga('send', 'pageview');
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-38982355-2', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
 
 

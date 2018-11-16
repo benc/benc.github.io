@@ -21,9 +21,7 @@
 
 &lt;p&gt;At the time of writing, &lt;a href=&#34;https://github.com/borisyankov/DefinitelyTyped/tree/master/angular2&#34;&gt;the typescript bindings published for the Angular 2 alpha builds is sometimes lagging behind&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;So I&amp;rsquo;m building them myself.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;So I&amp;rsquo;m building them myself.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -34,9 +32,7 @@
       <guid>//heavyindustries.io/2015/07/05/create_osx_vagrant_vmware_box/</guid>
       <description>&lt;p&gt;I need a test OS X system to use in &lt;a href=&#34;https://www.vagrantup.com&#34;&gt;Vagrant&lt;/a&gt;. I&amp;rsquo;m using &lt;a href=&#34;http://www.vmware.com/products/fusion/&#34;&gt;VMWare Fusion&lt;/a&gt;, it supports OS X virtual machines and &lt;a href=&#34;https://www.vagrantup.com/vmware&#34;&gt;Vagrant provides an official plugin to work with VMware&lt;/a&gt;. VMWare Fusion and the VMWare Vagrant plugin arent&amp;rsquo;t free, but well worth the money.&lt;/p&gt;
 
-&lt;p&gt;Since you cannot download a prepackaged vagrant VMWare OS X box, we&amp;rsquo;re going to build it ourselves.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Since you cannot download a prepackaged vagrant VMWare OS X box, we&amp;rsquo;re going to build it ourselves.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -49,9 +45,7 @@
 
 &lt;p&gt;The thing is: how do you process media files on a smartphone (iPhone in my case, but the same thing could be said from any other smartphone) and create a unified photo library out of it, on multiple machines?&lt;/p&gt;
 
-&lt;p&gt;A great solution to sync stuff between devices is &lt;a href=&#34;https://www.dropbox.com&#34;&gt;Dropbox&lt;/a&gt;. With their &lt;a href=&#34;https://carousel.dropbox.com&#34;&gt;Carousel&lt;/a&gt; app, it already integrates nicely into my phone, placing new photos into a &lt;code&gt;Camera Roll&lt;/code&gt; folder. Dropbox is also available for almost every platform, making this process applicable on more than just an iPhone and a Mac.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;A great solution to sync stuff between devices is &lt;a href=&#34;https://www.dropbox.com&#34;&gt;Dropbox&lt;/a&gt;. With their &lt;a href=&#34;https://carousel.dropbox.com&#34;&gt;Carousel&lt;/a&gt; app, it already integrates nicely into my phone, placing new photos into a &lt;code&gt;Camera Roll&lt;/code&gt; folder. Dropbox is also available for almost every platform, making this process applicable on more than just an iPhone and a Mac.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -62,9 +56,7 @@
       <guid>//heavyindustries.io/2015/06/03/configure-angular-html5-mode-in-undertow/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://undertow.io&#34;&gt;Undertow&lt;/a&gt; is the default web server in the &lt;a href=&#34;http://wildfly.org&#34;&gt;Wildfly Application Server&lt;/a&gt;. You can also use it as an embedded webserver.&lt;/p&gt;
 
-&lt;p&gt;To use &lt;a href=&#34;https://docs.angularjs.org/guide/$location#hashbang-and-html5-modes&#34;&gt;Angular HTML5 mode&lt;/a&gt; effectively, we need some rewrite rules to direct traffic to our Angular single-page application. Undertow support rewrite rules through a predicate. This article outlines how you can write a predicate and apply it to your code.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;To use &lt;a href=&#34;https://docs.angularjs.org/guide/$location#hashbang-and-html5-modes&#34;&gt;Angular HTML5 mode&lt;/a&gt; effectively, we need some rewrite rules to direct traffic to our Angular single-page application. Undertow support rewrite rules through a predicate. This article outlines how you can write a predicate and apply it to your code.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -75,9 +67,7 @@
       <guid>//heavyindustries.io/2015/05/26/colorize-maven-output-with-fish-shell/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m a &lt;a href=&#34;http://fishshell.com&#34;&gt;fish shell&lt;/a&gt; user (along with &lt;a href=&#34;https://github.com/bpinto/oh-my-fish&#34;&gt;oh-my-fish&lt;/a&gt;), and I also happen to encounter &lt;a href=&#34;http://maven.apache.org&#34;&gt;maven&lt;/a&gt; on a daily basis.&lt;/p&gt;
 
-&lt;p&gt;Maven is renowned for it&amp;rsquo;s verbose output, so adding a little color certainly helps to interpret it&amp;rsquo;s output better.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Maven is renowned for it&amp;rsquo;s verbose output, so adding a little color certainly helps to interpret it&amp;rsquo;s output better.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -97,9 +87,7 @@ I can enter my eID PIN code on the DIGIPASS, making the process more secure.&lt;
 
 &lt;p&gt;It worked great on Mavericks. &lt;a href=&#34;https://twitter.com/belfiuscontact/status/540120080450068481&#34;&gt;Belfius made efforts to get it working on Mac OS X Yosemite&lt;/a&gt;, but sadly, it never worked properly on my main machine.&lt;/p&gt;
 
-&lt;p&gt;I decided to perform a complete reinstall, and it still didn&amp;rsquo;t work properly. The DIGIPASS worked very well on other macs in my family, so I decided to figure some stuff out. This is what I found.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;I decided to perform a complete reinstall, and it still didn&amp;rsquo;t work properly. The DIGIPASS worked very well on other macs in my family, so I decided to figure some stuff out. This is what I found.&lt;/p&gt;</description>
     </item>
     
   </channel>

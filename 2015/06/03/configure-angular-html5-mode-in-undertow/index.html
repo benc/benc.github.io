@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Ben Cochez">
 <meta name="description" content="Describe your website">
-<meta name="generator" content="Hugo 0.36" />
+<meta name="generator" content="Hugo 0.51" />
 <title>Configure Angular HTML 5 mode in Undertow</title>
 <link rel="shortcut icon" href="//heavyindustries.io/images/favicon.ico">
 <link rel="stylesheet" href="//heavyindustries.io/css/style.css">
@@ -24,36 +24,17 @@
 <meta property="og:title" content="Configure Angular HTML 5 mode in Undertow" />
 <meta property="og:description" content="Undertow is the default web server in the Wildfly Application Server. You can also use it as an embedded webserver.
 
-To use Angular HTML5 mode effectively, we need some rewrite rules to direct traffic to our Angular single-page application. Undertow support rewrite rules through a predicate. This article outlines how you can write a predicate and apply it to your code.
-
-" />
+To use Angular HTML5 mode effectively, we need some rewrite rules to direct traffic to our Angular single-page application. Undertow support rewrite rules through a predicate. This article outlines how you can write a predicate and apply it to your code." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="//heavyindustries.io/2015/06/03/configure-angular-html5-mode-in-undertow/" />
-
-
-
-<meta property="article:published_time" content="2015-06-03T22:00:00&#43;00:00"/>
-
+<meta property="og:url" content="//heavyindustries.io/2015/06/03/configure-angular-html5-mode-in-undertow/" /><meta property="article:published_time" content="2015-06-03T22:00:00&#43;00:00"/>
 <meta property="article:modified_time" content="2015-06-03T22:00:00&#43;00:00"/>
-
-
-
-
-
-
-
-
-
-
 
 
 
 <meta itemprop="name" content="Configure Angular HTML 5 mode in Undertow">
 <meta itemprop="description" content="Undertow is the default web server in the Wildfly Application Server. You can also use it as an embedded webserver.
 
-To use Angular HTML5 mode effectively, we need some rewrite rules to direct traffic to our Angular single-page application. Undertow support rewrite rules through a predicate. This article outlines how you can write a predicate and apply it to your code.
-
-">
+To use Angular HTML5 mode effectively, we need some rewrite rules to direct traffic to our Angular single-page application. Undertow support rewrite rules through a predicate. This article outlines how you can write a predicate and apply it to your code.">
 
 
 <meta itemprop="datePublished" content="2015-06-03T22:00:00&#43;00:00" />
@@ -68,9 +49,7 @@ To use Angular HTML5 mode effectively, we need some rewrite rules to direct traf
 <meta name="twitter:title" content="Configure Angular HTML 5 mode in Undertow"/>
 <meta name="twitter:description" content="Undertow is the default web server in the Wildfly Application Server. You can also use it as an embedded webserver.
 
-To use Angular HTML5 mode effectively, we need some rewrite rules to direct traffic to our Angular single-page application. Undertow support rewrite rules through a predicate. This article outlines how you can write a predicate and apply it to your code.
-
-"/>
+To use Angular HTML5 mode effectively, we need some rewrite rules to direct traffic to our Angular single-page application. Undertow support rewrite rules through a predicate. This article outlines how you can write a predicate and apply it to your code."/>
 <meta name="twitter:site" content="@https://www.twitter.com/bencochez"/>
 
 
@@ -106,8 +85,6 @@ To use Angular HTML5 mode effectively, we need some rewrite rules to direct traf
         <p><a href="http://undertow.io">Undertow</a> is the default web server in the <a href="http://wildfly.org">Wildfly Application Server</a>. You can also use it as an embedded webserver.</p>
 
 <p>To use <a href="https://docs.angularjs.org/guide/$location#hashbang-and-html5-modes">Angular HTML5 mode</a> effectively, we need some rewrite rules to direct traffic to our Angular single-page application. Undertow support rewrite rules through a predicate. This article outlines how you can write a predicate and apply it to your code.</p>
-
-<p></p>
 
 <p>Note: these rules can be easily used for any single-page application framework.</p>
 
@@ -181,7 +158,7 @@ regex['/app/.+'] -&gt; rewrite['/km/index.html']
 </footer>
 
 <div id="disqus_thread"></div>
-<script>
+<script type="application/javascript">
     var disqus_config = function () {
     
     
@@ -267,14 +244,17 @@ regex['/app/.+'] -&gt; rewrite['/km/index.html']
 
 
 
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-38982355-2', 'auto');
-ga('send', 'pageview');
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-38982355-2', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
 
 
